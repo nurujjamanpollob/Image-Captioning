@@ -1,0 +1,8 @@
+requests
+pillow
+transformers
+django
+transformers
+pytorch
+pymongo
+PyJWT

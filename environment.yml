@@ -1,0 +1,15 @@
+name: Image-Captioning  # Replace with your desired environment name
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - requests
+  - pillow
+  - transformers
+  - django
+  - pytorch
+  - pymongo
+  - PyJWT
+  - pip
+  - pip:
+      - transformers  # Additional transformers version from pip

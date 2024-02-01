@@ -14,14 +14,14 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
-:: Activate the environment
-call Image-Captioning\Scripts\activate.bat
-
 :: Install dependencies
-pip install -r requirements.txt
+pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cu121
 if %errorlevel% neq 0 (
     echo Failed to install dependencies.
     exit /b 1
 )
+
+:: Activate the environment
+call Image-Captioning\Scripts\activate.bat
 
 echo Environment "Image-Captioning" created and dependencies installed successfully!

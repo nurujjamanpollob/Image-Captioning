@@ -3,6 +3,9 @@ pillow
 transformers
 django
 transformers
-pytorch
+torch
+torchvision
+torchaudio
 pymongo
 PyJWT
+torchvision

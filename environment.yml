@@ -8,6 +8,8 @@ dependencies:
   - transformers
   - django
   - pytorch
+  - torchvision
+  - cudatoolkit
   - pymongo
   - PyJWT
   - pip

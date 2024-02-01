@@ -5,7 +5,7 @@ def run_ai(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
     # ask user to input an image URL
-    img_url = input("Please input a image URL(Should be accessible without auth): ")
+    img_url = input("Please input a image URL/Absolute Path(Should be accessible without auth): ")
 
     cp = cpgen(img_url)
 

@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8535fa4a-cd71-4acc-985d-908921e2895d" name="Changes" comment="fix batch scripts">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/ImageDescriptorAPI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_env_install.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/restapi/create_api_user.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/token/GenerateSecurityToken.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/token/VerifySecurityToken.py" afterDir="false" />
+    <list default="true" id="8535fa4a-cd71-4acc-985d-908921e2895d" name="Changes" comment="Working AI Image Labeller python API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loader/Predictor.py" beforeDir="false" afterPath="$PROJECT_DIR$/loader/Predictor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pip_venv_install.bat" beforeDir="false" afterPath="$PROJECT_DIR$/pip_venv_install.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_env_install.bat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -93,7 +87,7 @@
     <configuration name="pip_venv_install" type="BatchConfigurationType" factoryName="Batch" temporary="true">
       <module name="Image-Captioning" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\nurujjamanpollob\DataspellProjects\Image-Captioning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="pip_venv_install.bat" />
       <option name="PARAMETERS" value="" />
@@ -164,6 +158,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial version to support image captioning. no apis created" />
     <MESSAGE value="fix batch scripts" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix batch scripts" />
+    <MESSAGE value="Working AI Image Labeller python API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working AI Image Labeller python API" />
   </component>
 </project>

@@ -25,7 +25,7 @@ class ImageCaptionGenerator:
     @:param image_bytes: The bytes of the image
     """
 
-    def __init__(self, image_bytes: bytesIo):
+    def _init_with_image_byte(self, image_bytes: bytesIo):
         self.image_bytes = image_bytes
         self.mode_initialized = 2
 
@@ -109,7 +109,6 @@ class ImageCaptionGenerator:
         # invoke private method to predict
         if self.mode_initialized == 3:
             return self.__getImageCaption(processor, model, self.__load_bytes_from_path(), hint)
-
 
     def __getImageCaption(self, processor, model, image_bytes, hint):
         raw_image = Image.open(image_bytes).convert('RGB')

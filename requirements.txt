@@ -1,11 +1,14 @@
 requests
 pillow
 transformers
-django
-transformers
 torch
 torchvision
 torchaudio
 pymongo
 PyJWT
 torchvision
+pip
+jinja2
+setuptools
+packaging
+typing_extensions

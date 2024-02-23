@@ -18,7 +18,7 @@ If you prefer anaconda environment, run <b>conda_env_install.bat</b> to install 
 
 If you run this installation for first time, to make sure the application downloads the model data, you need to run this following command:
 <pre>
-python main.py
+python main.py --download-model
 </pre>
 
 I hope this will work for you. If you have any issues, create an issue on this repository.

@@ -54,31 +54,3 @@ cd restapi
 python manage.py runserver
     </pre>
 
-# Contributing
-If you want to contribute to this project, you can create a pull request. 
-I will review the pull request and merge it if it is good.
-
-# BibTex and citation information
-If you want to cite this project, you can use the following BibTex:
-<pre>
-@misc{https://doi.org/10.48550/arxiv.2201.12086,
-  doi = {10.48550/ARXIV.2201.12086},
-  
-  url = {https://arxiv.org/abs/2201.12086},
-  
-  author = {Li, Junnan and Li, Dongxu and Xiong, Caiming and Hoi, Steven},
-  
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  
-  title = {BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation},
-  
-  publisher = {arXiv},
-  
-  year = {2022},
-  
-  copyright = {Creative Commons Attribution 4.0 International}
-}
-</pre>
-
-# License
-This project is licensed under the MIT License. You can use this project for commercial and non-commercial purposes.

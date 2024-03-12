@@ -1,12 +1,8 @@
 requests
 pillow
 transformers
-torch
-torchvision
-torchaudio
 pymongo
 PyJWT
-torchvision
 pip
 jinja2
 setuptools

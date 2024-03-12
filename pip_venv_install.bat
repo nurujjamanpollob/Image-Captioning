@@ -15,7 +15,8 @@ if %errorlevel% neq 0 (
 )
 
 :: Install dependencies
-pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cu121
+pip install -r requirements.txt
+pip install -r ai-requirements.txt --index-url https://download.pytorch.org/whl/cu121
 pip install -r django_requirements.txt
 if %errorlevel% neq 0 (
     echo Failed to install dependencies.

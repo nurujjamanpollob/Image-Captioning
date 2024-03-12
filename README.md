@@ -9,6 +9,7 @@ Vision-Language Pre-training (VLP) has advanced the performance for many vision-
 # Requirements
 - Python 3.11(Recommended and tested)
 - AN NVIDIA GPU with CUDA support. I recommend using a GPU with at least 8GB of memory. The hardware I have is a RTX 3090 24GB with a Intel i9-13900K CPU with 64GB DDR5 RAM.
+- If your platform is windows, and windows long path is not enabled, follow this <a href="https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry#enable-long-paths-in-windows-10-version-1607-and-later">link</a> to enable long path.
 
 # Installation
 If windows, run <b>pip_venv_install.bat</b> to install the required packages.
